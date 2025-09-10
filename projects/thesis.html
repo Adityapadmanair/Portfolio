@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thesis Project - Visualization of 2D Datamaps</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Thesis Project – Visualization of 2D Datamaps</h1>
+      <a href="../index.html" class="btn">⬅ Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="project-details">
+    <h2>About</h2>
+    <p>
+      A thesis project focusing on interactive visualization of large-scale 2D datamaps directly in a web browser. 
+      Designed for researchers and engineers handling scientific data. Project was later bought and published as a software by IMTEK Freiburg for NETCDF data handling in contact mechanics. 
+    </p>
+
+    <h2>How it Works</h2>
+    <ul>
+      <li>Data collected from NetCDF files using Node.js and Axios.</li>
+      <li>Visualization rendered as color maps on HTML5 canvas with WebGL.</li>
+      <li>As we zoom further in more and more data gets called and loads.</li>
+      <li>It works on the principle that we don't really need the entire data when the user is completely zoomed out.</li>
+      <li>This makes reduce the loading time and makes the transition smoother. </li>
+      <li>Supports seamless zooming, panning, and interaction even for images up to 10GB.</li>
+      <li>Elegant UI built with Tailwind CSS and vanilla JavaScript.</li>
+    </ul>
+
+    <h2>Demo Videos</h2>
+<video controls width="600">
+  <source src="../assets/Thesis-video-1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+<video controls width="600">
+  <source src="../assets/Thesis-video-2.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+
+    <h2>Tech Stack</h2>
+    <div class="stack-list small">
+      <span>Node.js</span>
+      <span>Axios</span>
+      <span>WebGL</span>
+      <span>JavaScript</span>
+      <span>Tailwind CSS</span>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aditya P Nair</p>
+  </footer>
+</body>
+</html>
